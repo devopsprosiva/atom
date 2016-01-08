@@ -1,7 +1,6 @@
 #!/bin/bash
 
-apm install minimap
-apm install linter
-apm install language-puppet
-apm install git-plus
-apm install vim-mode
+for i in minimap linter language-puppet git-plus vim-mode
+do
+  apm install $i
+done
