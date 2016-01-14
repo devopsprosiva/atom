@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install atom plugins
-for i in minimap linter language-puppet git-plus vim-mode markdown-writer markdown-preview-plus markdown-pdf
+for i in minimap linter language-puppet git-plus vim-mode markdown-writer markdown-preview-plus markdown-pdf markdown-scroll-sync scroll-sync
 do
   apm install $i
 done
