@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Install hydrogen (mac)
-brew install pkg-config
-brew install zeromq
-sudo pip install jupyter
+# brew install pkg-config
+# brew install zeromq
+# sudo pip install jupyter
 
 
 
